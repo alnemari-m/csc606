@@ -1,5 +1,5 @@
 ----
-type: lecture
+type: lecture 1
 date: 2024-08-26T8:00:00+4:30
 title: Week 1 Introduction & Image Formation
 tldr: "Introduction to Computer Vision and Image Formation."
