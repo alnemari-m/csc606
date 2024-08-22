@@ -10,5 +10,7 @@ links:
     - url: /static_files/presentations/code1.zip
       name: codes
     - url: https://www.cs.cornell.edu/courses/cs5670/2023sp/lectures/lec1.html
-      name: slides
+      name: slides1
+    - url: https://www.cs.cornell.edu/courses/cs5670/2023sp/lectures/lec1.html
+      name: slides2
 ---
