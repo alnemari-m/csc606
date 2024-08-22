@@ -8,9 +8,11 @@ links:
     - url: /static_files/presentations/lec2.zip
       name: notes
     - url: /static_files/presentations/code2.zip
-      name: codes
+      name: Jupyter Notebook
     - url: https://www.cs.cornell.edu/courses/cs5670/2023sp/lectures/lec2.html
       name: slides1
     - url: https://www.cs.cornell.edu/courses/cs5670/2023sp/lectures/lec2.html
       name: slides2
+    - url: https://www.cs.cornell.edu/courses/cs5670/2023sp/lectures/lec2.html
+      name: all
 ---
