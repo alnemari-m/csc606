@@ -16,3 +16,8 @@ links:
     - url: https://www.cs.cornell.edu/courses/cs5670/2023sp/lectures/lec1.html
       name: all
 ---
+
+**Readings:**
+1. Topic 1
+2. Topic 2
+3. Topic 3
