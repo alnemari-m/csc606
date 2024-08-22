@@ -1,18 +1,14 @@
-----
+---
 type: lecture
-date: 2024-08-26T8:00:00+4:30
-title: Week 1 Introduction & Image Formation
-tldr: "Introduction to Computer Vision and Image Formation."
-thumbnail: /static_files/presentations/lec1_2.jpg
+date: 2024-26-08T8:00:00+4:30
+title: "Lecture 1: Introduction"
+tldr: "Overview of the course, objectives, and introduction to computer vision."
+thumbnail: /static_files/presentations/lec1.jpg
 links: 
-    - url: /static_files/presentations/01_lecture.md
+    - url: /static_files/presentations/lec1.zip
       name: notes
-    - url: /static_files/presentations/01_lecture_notebook.ipynb
-      name: notebook
-    - url: https://google.com
-      name: slides 1
-    - url: https://google.com
-      name: slides 2
-    - url: /static_files/presentations/01_lecture.zip
-      name: download all
+    - url: /static_files/presentations/code1.zip
+      name: codes
+    - url: https://www.cs.cornell.edu/courses/cs5670/2023sp/lectures/lec1.html
+      name: slides
 ---
