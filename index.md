@@ -90,7 +90,7 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
     <td>10%</td>
   </tr>
   <tr class="project">
-    <td>Week 19</td>
+    <td>Week 199</td>
     <td>December 30, 2024</td>
     <td>Final Project Submission</td>
     <td>Submit your final project report and presentation.</td>
