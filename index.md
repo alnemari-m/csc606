@@ -17,57 +17,50 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
         }
         .timeline {
             position: relative;
-            max-width: 800px;
+            max-width: 400px; /* 1/3 of previous size */
             margin: 0 auto;
         }
         .timeline::after {
             content: '';
             position: absolute;
-            width: 6px;
+            width: 4px;
             background-color: #333;
             top: 0;
             bottom: 0;
             left: 50%;
-            margin-left: -3px;
+            margin-left: -2px;
         }
         .container {
-            padding: 10px 20px;
+            padding: 10px;
             position: relative;
             background-color: inherit;
-            width: 50%;
+            width: 100%;
         }
         .container.left {
             left: 0;
+            transform: translateX(-50%);
         }
         .container.right {
             left: 50%;
+            transform: translateX(50%);
         }
         .container::after {
             content: '';
             position: absolute;
-            width: 20px;
-            height: 20px;
-            right: -10px;
+            width: 14px;
+            height: 14px;
+            right: -7px;
             background-color: white;
-            border: 4px solid #333;
+            border: 3px solid #333;
             top: 15px;
             border-radius: 50%;
             z-index: 1;
         }
         .right::after {
-            left: -10px;
-        }
-        .left::after {
-            right: -10px;
-        }
-        .right::before {
-            left: -10px;
-        }
-        .left::before {
-            right: -10px;
+            left: -7px;
         }
         .content {
-            padding: 20px;
+            padding: 15px;
             background-color: #333;
             color: white;
             position: relative;
@@ -78,10 +71,12 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
         .content h2 {
             margin-top: 0;
             color: #fff;
+            font-size: 14px; /* Smaller text size */
         }
         .content p {
             margin: 0;
             color: #fff;
+            font-size: 12px; /* Smaller text size */
         }
         .container.left .content {
             background-color: #ff6f61;
@@ -89,28 +84,42 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
         .container.right .content {
             background-color: #6fbf73;
         }
-        .container:nth-child(odd) .content {
-            background-color: #42a5f5;
+        .project {
+            background-color: #ff6f61; /* Coral for project */
         }
-        .container:nth-child(even) .content {
-            background-color: #ab47bc;
+        .exam {
+            background-color: #42a5f5; /* Blue for exams */
+        }
+        .problem-set {
+            background-color: #ab47bc; /* Purple for problem sets */
         }
         @media screen and (max-width: 768px) {
             .container {
                 width: 100%;
-                padding-left: 50px;
-                padding-right: 50px;
+                padding-left: 20px;
+                padding-right: 20px;
+                transform: none;
             }
             .container.left, .container.right {
                 left: 0;
             }
-            .container::before {
-                left: 50%;
-                margin-left: -10px;
-            }
             .timeline::after {
-                left: 50%;
+                left: 20px;
             }
+        }
+        /* Curve Line */
+        .curve {
+            position: absolute;
+            width: 4px;
+            height: 40px;
+            background-color: #333;
+            top: 50px;
+            border-radius: 50% / 100% 100% 0 0;
+            transform: translateX(-50%) rotate(45deg);
+            transform-origin: top left;
+        }
+        .curve.right {
+            transform: translateX(-50%) rotate(-45deg);
         }
     </style>
 
@@ -118,49 +127,56 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 
 <div class="timeline">
   <div class="container left">
-    <div class="content">
+    <div class="curve"></div>
+    <div class="content project">
       <h2>Week 3 - September 9, 2024</h2>
       <p><strong>Project Proposal Submission (5%)</strong></p>
       <p>Submit your project proposal, selecting a topic and outlining your plan.</p>
     </div>
   </div>
   <div class="container right">
-    <div class="content">
+    <div class="curve right"></div>
+    <div class="content problem-set">
       <h2>Week 7 - October 7, 2024</h2>
       <p><strong>Problem Set 1 Due (10%)</strong></p>
       <p>Covers topics from Lectures 1-5. Submit your solutions.</p>
     </div>
   </div>
   <div class="container left">
-    <div class="content">
+    <div class="curve"></div>
+    <div class="content exam">
       <h2>Week 8 - October 14, 2024</h2>
       <p><strong>Midterm Exam (20%)</strong></p>
       <p>An in-class exam covering all material up to Lecture 7.</p>
     </div>
   </div>
   <div class="container right">
-    <div class="content">
+    <div class="curve right"></div>
+    <div class="content problem-set">
       <h2>Week 12 - November 11, 2024</h2>
       <p><strong>Problem Set 2 Due (10%)</strong></p>
       <p>Covers topics from Lectures 6-10. Submit your solutions.</p>
     </div>
   </div>
   <div class="container left">
-    <div class="content">
+    <div class="curve"></div>
+    <div class="content project">
       <h2>Week 15 - December 2, 2024</h2>
       <p><strong>Project Interim Report Due (10%)</strong></p>
       <p>Submit a detailed progress report and preliminary results.</p>
     </div>
   </div>
   <div class="container right">
-    <div class="content">
+    <div class="curve right"></div>
+    <div class="content project">
       <h2>Week 19 - December 30, 2024</h2>
       <p><strong>Final Project Submission (25%)</strong></p>
       <p>Submit your final project report and presentation.</p>
     </div>
   </div>
   <div class="container left">
-    <div class="content">
+    <div class="curve"></div>
+    <div class="content exam">
       <h2>Final Week - January 5, 2025</h2>
       <p><strong>Final Exam (20%)</strong></p>
       <p>Comprehensive exam covering the entire course.</p>
@@ -170,8 +186,6 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 
 </body>
 
-
-**Total Grade Weight: 100%**
 
 <style>
   table {
