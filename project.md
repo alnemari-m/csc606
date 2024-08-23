@@ -1,3 +1,9 @@
+---
+layout: page
+title: Project
+permalink: /project/
+---
+
 # Project  Computer Vision Course
 
 | **Title**                                           | **Description**                                                                                 | **Key Topics Covered**                                                                                                                                                     | **Datasets**                                                                                                                                                            |
@@ -21,5 +27,4 @@
 | **Week 3** | **Phase 1: Proposals Phase**    | - **Research and Data Collection:** Identify and gather all necessary datasets or resources critical for the project. This includes images, videos, or any specific data required for analysis. <br> - **Problem Definition:** Articulate a clear and concise problem statement. Define the key challenges and objectives that the project aims to address. <br> - **Preliminary Analysis:** Conduct an initial feasibility study. Test basic algorithms or models on a small subset of your data to ensure that the project is viable. <br> - **Report and Presentation:** Prepare a comprehensive report detailing your findings. The report should cover the motivation behind the project, related work, and the problem definition. Present your initial findings to gather feedback and refine your approach. |
 | **Week 10**| **Phase 2: Progress Report**    | - **System Design and Implementation:** Develop and implement the core components of your system. This phase involves rigorous coding and system integration based on your initial plans. <br> - **Preliminary Results:** Test your system with a subset of the data and analyze the preliminary results. Identify any issues or areas needing improvement. <br> - **Presentation:** Create a detailed progress presentation that highlights your system's design, the implementation process, and the preliminary results. Discuss any challenges faced and how you plan to overcome them in the final phase.                                                                                                                                                                       |
 | **Week 15**| **Phase 3: Final Report**       | - **Complete Implementation:** Finalize your project by refining and optimizing the system. Incorporate feedback from the previous phases and ensure that the system is fully functional. <br> - **Results and Discussion:** Perform a thorough evaluation of your system using the full dataset. Analyze the results comprehensively, discussing both the quantitative and qualitative aspects. Reflect on the strengths and limitations of your approach. <br> - **Final Report and Presentation:** Compile a detailed final report that encapsulates the entire project journey, from the initial proposal to the final results. Prepare a polished presentation that effectively communicates your work, its outcomes, and possible future directions. |
-
 
