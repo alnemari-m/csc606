@@ -3,7 +3,7 @@ type: lecture
 date: 2024-08-26T8:00:00+4:30
 title: Lecture 1- Introduction
 tldr: "Overview of the course, objectives, and introduction to computer vision."
-thumbnail: "https://codesrevolvewordpress.s3.us-west-2.amazonaws.com/revolveai/2022/04/15110814/computer-vision-applications.png"
+thumbnail: static_files/presentations/lec.jpg
 links:
   - url: /static_files/presentations/lec2.zip
     name: notes
