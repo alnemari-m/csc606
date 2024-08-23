@@ -7,185 +7,111 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 
 
 
-
-<style>
+ <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f9f9f9;
             margin: 0;
             padding: 20px;
         }
-        .timeline {
-            position: relative;
-            max-width: 400px; /* 1/3 of previous size */
-            margin: 0 auto;
-        }
-        .timeline::after {
-            content: '';
-            position: absolute;
-            width: 4px;
-            background-color: #333;
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -2px;
-        }
-        .container {
-            padding: 10px;
-            position: relative;
-            background-color: inherit;
+        table {
             width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
         }
-        .container.left {
-            left: 0;
-            transform: translateX(-50%);
+        th, td {
+            padding: 10px;
+            text-align: left;
         }
-        .container.right {
-            left: 50%;
-            transform: translateX(50%);
-        }
-        .container::after {
-            content: '';
-            position: absolute;
-            width: 14px;
-            height: 14px;
-            right: -7px;
-            background-color: white;
-            border: 3px solid #333;
-            top: 15px;
-            border-radius: 50%;
-            z-index: 1;
-        }
-        .right::after {
-            left: -7px;
-        }
-        .content {
-            padding: 15px;
-            background-color: #333;
-            color: white;
-            position: relative;
-            border-radius: 6px;
-            width: calc(100% - 40px);
-            box-sizing: border-box;
-        }
-        .content h2 {
-            margin-top: 0;
-            color: #fff;
-            font-size: 14px; /* Smaller text size */
-        }
-        .content p {
-            margin: 0;
-            color: #fff;
-            font-size: 12px; /* Smaller text size */
-        }
-        .container.left .content {
-            background-color: #ff6f61;
-        }
-        .container.right .content {
-            background-color: #6fbf73;
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
         }
         .project {
-            background-color: #ff6f61; /* Coral for project */
+            background-color: #d9e8fb; /* Light Blue */
         }
         .exam {
-            background-color: #42a5f5; /* Blue for exams */
+            background-color: #fbe4d5; /* Light Pink */
         }
         .problem-set {
-            background-color: #ab47bc; /* Purple for problem sets */
+            background-color: #ffe6cc; /* Light Orange */
         }
-        @media screen and (max-width: 768px) {
-            .container {
-                width: 100%;
-                padding-left: 20px;
-                padding-right: 20px;
-                transform: none;
-            }
-            .container.left, .container.right {
-                left: 0;
-            }
-            .timeline::after {
-                left: 20px;
-            }
-        }
-        /* Curve Line */
-        .curve {
-            position: absolute;
-            width: 4px;
-            height: 40px;
-            background-color: #333;
-            top: 50px;
-            border-radius: 50% / 100% 100% 0 0;
-            transform: translateX(-50%) rotate(45deg);
-            transform-origin: top left;
-        }
-        .curve.right {
-            transform: translateX(-50%) rotate(-45deg);
+        .header {
+            background-color: #f2f2f2;
+            font-weight: bold;
         }
     </style>
 
 <body>
 
-<div class="timeline">
-  <div class="container left">
-    <div class="curve"></div>
-    <div class="content project">
-      <h2>Week 3 - September 9, 2024</h2>
-      <p><strong>Project Proposal Submission (5%)</strong></p>
-      <p>Submit your project proposal, selecting a topic and outlining your plan.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="curve right"></div>
-    <div class="content problem-set">
-      <h2>Week 7 - October 7, 2024</h2>
-      <p><strong>Problem Set 1 Due (10%)</strong></p>
-      <p>Covers topics from Lectures 1-5. Submit your solutions.</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="curve"></div>
-    <div class="content exam">
-      <h2>Week 8 - October 14, 2024</h2>
-      <p><strong>Midterm Exam (20%)</strong></p>
-      <p>An in-class exam covering all material up to Lecture 7.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="curve right"></div>
-    <div class="content problem-set">
-      <h2>Week 12 - November 11, 2024</h2>
-      <p><strong>Problem Set 2 Due (10%)</strong></p>
-      <p>Covers topics from Lectures 6-10. Submit your solutions.</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="curve"></div>
-    <div class="content project">
-      <h2>Week 15 - December 2, 2024</h2>
-      <p><strong>Project Interim Report Due (10%)</strong></p>
-      <p>Submit a detailed progress report and preliminary results.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="curve right"></div>
-    <div class="content project">
-      <h2>Week 19 - December 30, 2024</h2>
-      <p><strong>Final Project Submission (25%)</strong></p>
-      <p>Submit your final project report and presentation.</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="curve"></div>
-    <div class="content exam">
-      <h2>Final Week - January 5, 2025</h2>
-      <p><strong>Final Exam (20%)</strong></p>
-      <p>Comprehensive exam covering the entire course.</p>
-    </div>
-  </div>
-</div>
+<h1>Grading Timeline</h1>
+
+<table>
+  <tr class="header">
+    <th>Week</th>
+    <th>Date</th>
+    <th>Event</th>
+    <th>Description</th>
+    <th>Weight</th>
+  </tr>
+
+  <!-- First Third: Projects -->
+  <tr class="project">
+    <td>Week 3</td>
+    <td>September 9, 2024</td>
+    <td>Project Proposal Submission</td>
+    <td>Submit your project proposal, selecting a topic and outlining your plan.</td>
+    <td>5%</td>
+  </tr>
+  <tr class="project">
+    <td>Week 15</td>
+    <td>December 2, 2024</td>
+    <td>Project Interim Report Due</td>
+    <td>Submit a detailed progress report and preliminary results.</td>
+    <td>10%</td>
+  </tr>
+  <tr class="project">
+    <td>Week 19</td>
+    <td>December 30, 2024</td>
+    <td>Final Project Submission</td>
+    <td>Submit your final project report and presentation.</td>
+    <td>25%</td>
+  </tr>
+
+  <!-- Second Third: Exams -->
+  <tr class="exam">
+    <td>Week 8</td>
+    <td>October 14, 2024</td>
+    <td>Midterm Exam</td>
+    <td>An in-class exam covering all material up to Lecture 7.</td>
+    <td>20%</td>
+  </tr>
+  <tr class="exam">
+    <td>Final Week</td>
+    <td>January 5, 2025</td>
+    <td>Final Exam</td>
+    <td>Comprehensive exam covering the entire course.</td>
+    <td>20%</td>
+  </tr>
+
+  <!-- Third Third: Problem Sets -->
+  <tr class="problem-set">
+    <td>Week 7</td>
+    <td>October 7, 2024</td>
+    <td>Problem Set 1 Due</td>
+    <td>Covers topics from Lectures 1-5. Submit your solutions.</td>
+    <td>10%</td>
+  </tr>
+  <tr class="problem-set">
+    <td>Week 12</td>
+    <td>November 11, 2024</td>
+    <td>Problem Set 2 Due</td>
+    <td>Covers topics from Lectures 6-10. Submit your solutions.</td>
+    <td>10%</td>
+  </tr>
+</table>
 
 </body>
-
 
 <style>
   table {
