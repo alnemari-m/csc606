@@ -6,8 +6,7 @@ This course provides an introduction to computer vision, including fundamentals 
 feature detection and matching, stereo, motion estimation and tracking, image classification, scene understanding, and deep learning with neural networks.
 
 
-
- <style>
+   <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f9f9f9;
@@ -28,13 +27,13 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
             font-weight: bold;
         }
         .project {
-            background-color: #d9e8fb; /* Light Blue */
+            background-color: #fff2cc; /* Light Yellow */
         }
         .exam {
-            background-color: #fbe4d5; /* Light Pink */
+            background-color: #d9e8fb; /* Light Blue */
         }
         .problem-set {
-            background-color: #ffe6cc; /* Light Orange */
+            background-color: #e2efda; /* Light Green */
         }
         .header {
             background-color: #f2f2f2;
@@ -42,7 +41,6 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
         }
     </style>
 
-<body>
 
 <h1>Grading Timeline</h1>
 
@@ -55,13 +53,34 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
     <th>Weight</th>
   </tr>
 
-  <!-- First Third: Projects -->
+  <!-- Ordered by Timeline -->
   <tr class="project">
     <td>Week 3</td>
     <td>September 9, 2024</td>
     <td>Project Proposal Submission</td>
     <td>Submit your project proposal, selecting a topic and outlining your plan.</td>
     <td>5%</td>
+  </tr>
+  <tr class="problem-set">
+    <td>Week 7</td>
+    <td>October 7, 2024</td>
+    <td>Problem Set 1 Due</td>
+    <td>Covers topics from Lectures 1-5. Submit your solutions.</td>
+    <td>10%</td>
+  </tr>
+  <tr class="exam">
+    <td>Week 8</td>
+    <td>October 14, 2024</td>
+    <td>Midterm Exam</td>
+    <td>An in-class exam covering all material up to Lecture 7.</td>
+    <td>20%</td>
+  </tr>
+  <tr class="problem-set">
+    <td>Week 12</td>
+    <td>November 11, 2024</td>
+    <td>Problem Set 2 Due</td>
+    <td>Covers topics from Lectures 6-10. Submit your solutions.</td>
+    <td>10%</td>
   </tr>
   <tr class="project">
     <td>Week 15</td>
@@ -77,15 +96,6 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
     <td>Submit your final project report and presentation.</td>
     <td>25%</td>
   </tr>
-
-  <!-- Second Third: Exams -->
-  <tr class="exam">
-    <td>Week 8</td>
-    <td>October 14, 2024</td>
-    <td>Midterm Exam</td>
-    <td>An in-class exam covering all material up to Lecture 7.</td>
-    <td>20%</td>
-  </tr>
   <tr class="exam">
     <td>Final Week</td>
     <td>January 5, 2025</td>
@@ -93,25 +103,10 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
     <td>Comprehensive exam covering the entire course.</td>
     <td>20%</td>
   </tr>
-
-  <!-- Third Third: Problem Sets -->
-  <tr class="problem-set">
-    <td>Week 7</td>
-    <td>October 7, 2024</td>
-    <td>Problem Set 1 Due</td>
-    <td>Covers topics from Lectures 1-5. Submit your solutions.</td>
-    <td>10%</td>
-  </tr>
-  <tr class="problem-set">
-    <td>Week 12</td>
-    <td>November 11, 2024</td>
-    <td>Problem Set 2 Due</td>
-    <td>Covers topics from Lectures 6-10. Submit your solutions.</td>
-    <td>10%</td>
-  </tr>
 </table>
 
-</body>
+
+
 
 <style>
   table {
