@@ -9,78 +9,110 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 
 
 <style>
-    body {
-        font-family: Arial, sans-serif;
-    }
-    .timeline {
-        position: relative;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    .timeline::after {
-        content: '';
-        position: absolute;
-        width: 6px;
-        background-color: #ddd;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        margin-left: -3px;
-    }
-    .container {
-        padding: 10px 40px;
-        position: relative;
-        background-color: inherit;
-        width: 50%;
-    }
-    .container.left {
-        left: 0;
-    }
-    .container.right {
-        left: 50%;
-    }
-    .container::after {
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        right: -17px;
-        background-color: white;
-        border: 4px solid #ff9f55;
-        top: 15px;
-        border-radius: 50%;
-        z-index: 1;
-    }
-    .right::after {
-        left: -16px;
-    }
-    .left::after {
-        right: -16px;
-    }
-    .right::before {
-        left: -16px;
-    }
-    .left::before {
-        right: -16px;
-    }
-    .container.right::after {
-        left: -16px;
-    }
-    .content {
-        padding: 20px 30px;
-        background-color: #ff9f55;
-        position: relative;
-        border-radius: 6px;
-    }
-    .content h2 {
-        margin-top: 0;
-        color: white;
-    }
-    .content p {
-        margin: 0;
-        color: white;
-    }
-</style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #333;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+        .container {
+            padding: 10px 20px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+        .container.left {
+            left: 0;
+        }
+        .container.right {
+            left: 50%;
+        }
+        .container::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: -10px;
+            background-color: white;
+            border: 4px solid #333;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .right::after {
+            left: -10px;
+        }
+        .left::after {
+            right: -10px;
+        }
+        .right::before {
+            left: -10px;
+        }
+        .left::before {
+            right: -10px;
+        }
+        .content {
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            border-radius: 6px;
+            width: calc(100% - 40px);
+            box-sizing: border-box;
+        }
+        .content h2 {
+            margin-top: 0;
+            color: #fff;
+        }
+        .content p {
+            margin: 0;
+            color: #fff;
+        }
+        .container.left .content {
+            background-color: #ff6f61;
+        }
+        .container.right .content {
+            background-color: #6fbf73;
+        }
+        .container:nth-child(odd) .content {
+            background-color: #42a5f5;
+        }
+        .container:nth-child(even) .content {
+            background-color: #ab47bc;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            .container.left, .container.right {
+                left: 0;
+            }
+            .container::before {
+                left: 50%;
+                margin-left: -10px;
+            }
+            .timeline::after {
+                left: 50%;
+            }
+        }
+    </style>
 
 <body>
 
@@ -137,7 +169,6 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 </div>
 
 </body>
-
 
 
 **Total Grade Weight: 100%**
