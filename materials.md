@@ -19,7 +19,6 @@ https://www.deeplearningbook.org/
 
 ## Additional Course Materials
 
-* If you are not familiar with Python programming, use any online tutorial to get a handle of it.
 * [Linear Algebra #1](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab): Linear Algebra
 * [Python101 #2](https://www.youtube.com/watch?v=eWRfhZUzrAc): Python 101
 * [Python102 #3](https://www.youtube.com/watch?v=HGOBQPFzWKo): Python 102
