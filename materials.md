@@ -34,4 +34,4 @@ permalink: /materials/
 * [Python102 #3](https://www.youtube.com/watch?v=HGOBQPFzWKo): Python 102
 * [OpenCV #4](https://www.youtube.com/watch?v=oXlwWbU8l2o&t=67s): OpenCv
 * [Pytorch #5](https://www.youtube.com/watch?v=IC0_FRiX-sw&list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN):Pytorch
-* [Numpy #6]  (https://www.youtube.com/watch?v=8Y0qQEh7dJg): Numpy 
+* [Numpy #6](https://www.youtube.com/watch?v=8Y0qQEh7dJg): Numpy 
