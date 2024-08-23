@@ -5,8 +5,10 @@ permalink: /project/
 ---
 # Project Ideas for Computer Vision Course
 
+# Project Ideas for Computer Vision Course
+
 <table style="border-collapse: collapse; width: 100%;">
-  <tr style="background-color: #ADD8E6; color: #000000;">
+  <tr style="background-color: #E6E6FA; color: #000000;">
     <td><strong>Title</strong></td>
     <td><strong>Description</strong></td>
     <td><strong>Key Topics Covered</strong></td>
@@ -33,7 +35,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #90EE90; color: #000000;">
+  <tr style="background-color: #98FB98; color: #000000;">
     <td><strong>Object Detection and Recognition using Deep Learning</strong></td>
     <td>Develop an object detection system using CNN frameworks like YOLO or Faster R-CNN.</td>
     <td>
@@ -54,7 +56,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #FFB6C1; color: #000000;">
+  <tr style="background-color: #FFDAB9; color: #000000;">
     <td><strong>Image Segmentation with Conditional Random Fields (CRFs)</strong></td>
     <td>Implement an image segmentation system that uses CRFs as a post-processing step for refinement.</td>
     <td>
@@ -75,7 +77,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #ADD8E6; color: #000000;">
+  <tr style="background-color: #E6E6FA; color: #000000;">
     <td><strong>Super-Resolution Imaging with GANs</strong></td>
     <td>Create a super-resolution model using a Generative Adversarial Network (GAN).</td>
     <td>
@@ -96,7 +98,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #90EE90; color: #000000;">
+  <tr style="background-color: #98FB98; color: #000000;">
     <td><strong>Structure-from-Motion (SfM) and SLAM</strong></td>
     <td>Develop a system for 3D map reconstruction and real-time localization using SfM and SLAM.</td>
     <td>
@@ -117,7 +119,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #FFB6C1; color: #000000;">
+  <tr style="background-color: #FFDAB9; color: #000000;">
     <td><strong>Panoptic Segmentation for Urban Scenes</strong></td>
     <td>Implement a panoptic segmentation model that combines instance and semantic segmentation.</td>
     <td>
@@ -138,7 +140,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #ADD8E6; color: #000000;">
+  <tr style="background-color: #E6E6FA; color: #000000;">
     <td><strong>Pose Estimation for Human Motion Analysis</strong></td>
     <td>Develop a system to estimate human poses from images or videos for action recognition or tracking.</td>
     <td>
@@ -159,7 +161,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #90EE90; color: #000000;">
+  <tr style="background-color: #98FB98; color: #000000;">
     <td><strong>Optical Flow Estimation for Motion Tracking</strong></td>
     <td>Create a system that estimates optical flow between video frames to track motion.</td>
     <td>
@@ -180,7 +182,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #FFB6C1; color: #000000;">
+  <tr style="background-color: #FFDAB9; color: #000000;">
     <td><strong>Monocular Depth Estimation Using CNNs</strong></td>
     <td>Implement a monocular depth estimation system using a convolutional neural network (CNN).</td>
     <td>
@@ -201,7 +203,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #ADD8E6; color: #000000;">
+  <tr style="background-color: #E6E6FA; color: #000000;">
     <td><strong>Image Inpainting for Scene Completion</strong></td>
     <td>Develop an image inpainting system to fill in missing or corrupted parts of an image.</td>
     <td>
