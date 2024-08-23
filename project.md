@@ -19,15 +19,14 @@ permalink: /project/
 | **9. Monocular Depth Estimation Using CNNs**        | Implement a monocular depth estimation system using a convolutional neural network (CNN).         | - Depth Estimation <br> - Monocular Vision <br> - Convolutional Neural Networks (CNNs) <br> - 3D Vision                                                                    | - [NYU Depth V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) (~5 GB) <br> - [KITTI Depth Prediction](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction) (~3 GB) <br> - [Make3D](http://make3d.cs.cornell.edu/data.html) (~2 GB) <br> - [ETH3D (Low-Res Subset)](https://www.eth3d.net/datasets) (~2 GB) <br> - [SUN RGB-D](http://rgbd.cs.princeton.edu/) (~6 GB) |
 | **10. Image Inpainting for Scene Completion**       | Develop an image inpainting system to fill in missing or corrupted parts of an image.             | - Image Inpainting <br> - Generative Models <br> - Deep Learning for Image Synthesis <br> - Image Restoration                                                              | - [CelebA-HQ](https://github.com/tkarras/progressive_growing_of_gans) (~5 GB) <br> - [Places2](http://places2.csail.mit.edu/download.html) (~7 GB subset) <br> - [Paris StreetView](http://www.vision.ee.ethz.ch/~qianyan/ParisDataset/) (~2 GB) <br> - [ImageNet (subset)](http://www.image-net.org/) (~10 GB subset) <br> - [COCO (subset)](https://cocodataset.org/#home) (~5 GB subset) |
 
-
 # Project Timeline and Expectations
 
-<table>
+<table style="border-collapse: collapse; width: 100%;">
   <tr style="background-color: #ADD8E6; color: #000000;">
     <td><strong>Week 3</strong></td>
     <td><strong>Phase 1: Proposals Phase</strong></td>
     <td>
-      <ul>
+      <ul style="margin: 0; padding: 10px;">
         <li><strong>Research and Data Collection:</strong> Identify and gather all necessary datasets or resources critical for the project. This includes images, videos, or any specific data required for analysis.</li>
         <li><strong>Problem Definition:</strong> Articulate a clear and concise problem statement. Define the key challenges and objectives that the project aims to address.</li>
         <li><strong>Preliminary Analysis:</strong> Conduct an initial feasibility study. Test basic algorithms or models on a small subset of your data to ensure that the project is viable.</li>
@@ -39,7 +38,7 @@ permalink: /project/
     <td><strong>Week 10</strong></td>
     <td><strong>Phase 2: Progress Report</strong></td>
     <td>
-      <ul>
+      <ul style="margin: 0; padding: 10px;">
         <li><strong>System Design and Implementation:</strong> Develop and implement the core components of your system. This phase involves rigorous coding and system integration based on your initial plans.</li>
         <li><strong>Preliminary Results:</strong> Test your system with a subset of the data and analyze the preliminary results. Identify any issues or areas needing improvement.</li>
         <li><strong>Presentation:</strong> Create a detailed progress presentation that highlights your system's design, the implementation process, and the preliminary results. Discuss any challenges faced and how you plan to overcome them in the final phase.</li>
@@ -50,7 +49,7 @@ permalink: /project/
     <td><strong>Week 15</strong></td>
     <td><strong>Phase 3: Final Report</strong></td>
     <td>
-      <ul>
+      <ul style="margin: 0; padding: 10px;">
         <li><strong>Complete Implementation:</strong> Finalize your project by refining and optimizing the system. Incorporate feedback from the previous phases and ensure that the system is fully functional.</li>
         <li><strong>Results and Discussion:</strong> Perform a thorough evaluation of your system using the full dataset. Analyze the results comprehensively, discussing both the quantitative and qualitative aspects. Reflect on the strengths and limitations of your approach.</li>
         <li><strong>Final Report and Presentation:</strong> Compile a detailed final report that encapsulates the entire project journey, from the initial proposal to the final results. Prepare and deliver a polished presentation that effectively communicates your work, its outcomes, and potential future directions.</li>
