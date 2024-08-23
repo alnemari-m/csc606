@@ -7,85 +7,81 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .timeline {
-            position: relative;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .timeline::after {
-            content: '';
-            position: absolute;
-            width: 6px;
-            background-color: #ddd;
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -3px;
-        }
-        .container {
-            padding: 10px 40px;
-            position: relative;
-            background-color: inherit;
-            width: 50%;
-        }
-        .container.left {
-            left: 0;
-        }
-        .container.right {
-            left: 50%;
-        }
-        .container::after {
-            content: '';
-            position: absolute;
-            width: 25px;
-            height: 25px;
-            right: -17px;
-            background-color: white;
-            border: 4px solid #ff9f55;
-            top: 15px;
-            border-radius: 50%;
-            z-index: 1;
-        }
-        .right::after {
-            left: -16px;
-        }
-        .left::after {
-            right: -16px;
-        }
-        .right::before {
-            left: -16px;
-        }
-        .left::before {
-            right: -16px;
-        }
-        .container.right::after {
-            left: -16px;
-        }
-        .content {
-            padding: 20px 30px;
-            background-color: #ff9f55;
-            position: relative;
-            border-radius: 6px;
-        }
-        .content h2 {
-            margin-top: 0;
-            color: white;
-        }
-        .content p {
-            margin: 0;
-            color: white;
-        }
-    </style>
-</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: #ddd;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+    }
+    .container {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+    }
+    .container.left {
+        left: 0;
+    }
+    .container.right {
+        left: 50%;
+    }
+    .container::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: white;
+        border: 4px solid #ff9f55;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    .right::after {
+        left: -16px;
+    }
+    .left::after {
+        right: -16px;
+    }
+    .right::before {
+        left: -16px;
+    }
+    .left::before {
+        right: -16px;
+    }
+    .container.right::after {
+        left: -16px;
+    }
+    .content {
+        padding: 20px 30px;
+        background-color: #ff9f55;
+        position: relative;
+        border-radius: 6px;
+    }
+    .content h2 {
+        margin-top: 0;
+        color: white;
+    }
+    .content p {
+        margin: 0;
+        color: white;
+    }
+</style>
+
 <body>
 
 <div class="timeline">
@@ -141,7 +137,7 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 </div>
 
 </body>
-</html>
+
 
 
 **Total Grade Weight: 100%**
