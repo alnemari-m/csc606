@@ -7,18 +7,142 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 
 
 
-# Grading Timeline
-# Grading Timeline
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #ddd;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+        .container {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+        .container.left {
+            left: 0;
+        }
+        .container.right {
+            left: 50%;
+        }
+        .container::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: white;
+            border: 4px solid #ff9f55;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .right::after {
+            left: -16px;
+        }
+        .left::after {
+            right: -16px;
+        }
+        .right::before {
+            left: -16px;
+        }
+        .left::before {
+            right: -16px;
+        }
+        .container.right::after {
+            left: -16px;
+        }
+        .content {
+            padding: 20px 30px;
+            background-color: #ff9f55;
+            position: relative;
+            border-radius: 6px;
+        }
+        .content h2 {
+            margin-top: 0;
+            color: white;
+        }
+        .content p {
+            margin: 0;
+            color: white;
+        }
+    </style>
+</head>
+<body>
 
-| Week | Date              | Assessment                          | Description                                  | Grade Weight |
-|------|-------------------|-------------------------------------|----------------------------------------------|--------------|
-| 3    | September 9, 2024 | <span style="color:blue">**Project Proposal Submission**</span> | Selection of project topic and initial plan  | 5%           |
-| 7    | October 7, 2024   | <span style="color:yellow">**Problem Set 1 Due**</span>          | Covers topics from Lectures 1-5              | 10%          |
-| 8    | October 14, 2024  | <span style="color:green">**Midterm Exam**</span>               | Covers all material up to Lecture 7          | 20%          |
-| 12   | November 11, 2024 | <span style="color:yellow">**Problem Set 2 Due**</span>          | Covers topics from Lectures 6-10             | 10%          |
-| 15   | December 2, 2024  | <span style="color:blue">**Project Interim Report Due**</span>   | Detailed progress report and preliminary results | 10%       |
-| 19   | December 30, 2024 | <span style="color:blue">**Final Project Submission**</span>    | Complete project report and presentation     | 25%          |
-| 20   | January 5, 2025   | <span style="color:green">**Final Exam**</span>                 | Comprehensive exam covering entire course    | 20%          |
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>Week 3 - September 9, 2024</h2>
+      <p><strong>Project Proposal Submission (5%)</strong></p>
+      <p>Submit your project proposal, selecting a topic and outlining your plan.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Week 7 - October 7, 2024</h2>
+      <p><strong>Problem Set 1 Due (10%)</strong></p>
+      <p>Covers topics from Lectures 1-5. Submit your solutions.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Week 8 - October 14, 2024</h2>
+      <p><strong>Midterm Exam (20%)</strong></p>
+      <p>An in-class exam covering all material up to Lecture 7.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Week 12 - November 11, 2024</h2>
+      <p><strong>Problem Set 2 Due (10%)</strong></p>
+      <p>Covers topics from Lectures 6-10. Submit your solutions.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Week 15 - December 2, 2024</h2>
+      <p><strong>Project Interim Report Due (10%)</strong></p>
+      <p>Submit a detailed progress report and preliminary results.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Week 19 - December 30, 2024</h2>
+      <p><strong>Final Project Submission (25%)</strong></p>
+      <p>Submit your final project report and presentation.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Final Week - January 5, 2025</h2>
+      <p><strong>Final Exam (20%)</strong></p>
+      <p>Comprehensive exam covering the entire course.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
 
 **Total Grade Weight: 100%**
 
