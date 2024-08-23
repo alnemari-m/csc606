@@ -3,7 +3,7 @@ layout: page
 title: Project
 permalink: /project/
 ---
-# Project Ideas for Computer Vision Course
+# Projects for Computer Vision Course
 <table style="border-collapse: collapse; width: 100%;">
   <tr style="background-color: #E6E6FA; color: #000000;">
     <td><strong>Title</strong></td>
