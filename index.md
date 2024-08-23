@@ -162,7 +162,7 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
     <td>Introduction to Deep Network Training - CS 231N</td>
     <td>Advanced Training Techniques - CS 231N</td>
   </tr>
-  <tr style="background-color: lightpurple;">
+  <tr style="background-color: blueviolet;">
     <td>18</td>
     <td>December 23, 2024</td>
     <td>Lecture 16</td>
