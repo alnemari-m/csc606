@@ -7,8 +7,8 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 
 # Piazza Group 
 
-[Join the Piazza Group]https://piazza.com/university_of_tabuk/fall2024/computervision)
-Access code: 
+[Join the Piazza Group](https://piazza.com/university_of_tabuk/fall2024/computervision)
+Access code: TBH
 
 <style>
     body {
@@ -160,8 +160,8 @@ Access code:
     <th>Date</th>
     <th>Type</th>
     <th>Title</th>
-    <th>Description</th>
-    <th>Readings/Links</th>
+    <th>Readings</th>
+    <th>Readings</th>
   </tr>
   <tr class="intro">
     <td>1</td>

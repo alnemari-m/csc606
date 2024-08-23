@@ -4,20 +4,19 @@ date: 2024-08-26T8:00:00+4:30
 title: Lecture 1- Introduction
 tldr: "Overview of the course, objectives, and introduction to computer vision."
 thumbnail: /static_files/presentations/lec1.jpg
-links: 
-    - url: /static_files/presentations/lec1.zip
-      name: notes
-    - url: /static_files/presentations/code1.zip
-      name: Jupyter Notebook
-    - url: https://www.cs.cornell.edu/courses/cs5670/2023sp/lectures/lec1.html
-      name: slides1
-    - url: https://www.cs.cornell.edu/courses/cs5670/2023sp/lectures/lec1.html
-      name: slides2
-    - url: https://www.cs.cornell.edu/courses/cs5670/2023sp/lectures/lec1.html
-      name: all
+links:
+  - url: /static_files/presentations/lec2.zip
+    name: notes
+  - url: https://colab.research.google.com/drive/1HPqVev_oq207M94ozF-IbKXmnUNnzKXF?usp=sharing
+    name: Jupyter Notebook
+  - url: https://drive.google.com/file/d/1ckaYuJvvkQNqZvPXmmM38FjrY0ErppNQ/view?usp=drive_link
+    name: slides1
+  - url: https://drive.google.com/file/d/1YV4x0B3PwCVEDF5dXxFdXOGJ4S_8OGyX/view?usp=drive_link
+    name: slides2
+  - url: https://drive.google.com/drive/folders/16s7w3s_bDVrCyIzp0tUjHHcDIg_wGGBM?usp=drive_link
+    name: all
 ---
 
 **Readings:**
-1. Topic 1
-2. Topic 2
-3. Topic 3
+1. Szeliski (2nd Edition) Chapter 1
+2. 	Szeliski 3.1 - 3.3
