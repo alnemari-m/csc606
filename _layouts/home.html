@@ -9,8 +9,7 @@ layout: default
     {% include announcements.html %}
     <br />
 
-    <h2>Course Description</h2>
-    <p>{{ site.course_description }}</p>
+
     
     {{ content }}
 
@@ -49,7 +48,7 @@ layout: default
 
         <div style="width:65%; float: left">
             <div class="profile-pic-gallary ">
-                <h2>Teaching Assistants</h2>
+                <h2></h2>
                 {% for ta in site.data.people.teaching_assistants %}
                 <div class="image--cover-container">
                     <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
