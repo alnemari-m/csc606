@@ -7,18 +7,26 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 
 
 
-# Course Grade 
-## 1. Problem 1 : 10
-## 2. Problem 2 : 10
-## 3. Final Project: 20
-## 4. Midterm : 100
-## 5. Final : 100
+# Grading Timeline
+
+| Week | Date              | Assessment                          | Description                                  | Grade Weight |
+|------|-------------------|-------------------------------------|----------------------------------------------|--------------|
+| 3    | September 9, 2024 | **Project Proposal Submission**     | Selection of project topic and initial plan  | 5%           |
+| 7    | October 7, 2024   | **Problem Set 1 Due**               | Covers topics from Lectures 1-5              | 5%           |
+| 8    | October 14, 2024  | **Midterm Exam**                    | Covers all material up to Lecture 7          | 20%          |
+| 12   | November 11, 2024 | **Problem Set 2 Due**               | Covers topics from Lectures 6-10             | 5%           |
+| 15   | December 2, 2024  | **Project Interim Report Due**      | Detailed progress report and preliminary results | 10%          |
+| 19   | December 30, 2024 | **Final Project Submission**        | Complete project report and presentation     | 25%          |
+| 20   | January 5, 2025   | **Final Exam**                      | Comprehensive exam covering entire course    | 20%          |
+
+**Total Grade Weight: 100%**
+
 
 
 # Course Schedule
 
 | Week | Date            | Lecture Number | Topic(s) Covered                                                                 | First Session (1 hour 20 minutes)                          | Second Session (1 hour 30 minutes)                      |
-|------|-----------------|----------------|----------------------------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------|
+|------|-----------------|----------------|----------------------------------------------------------------------------------|------------------------------------------------------------|---------------------------------------------------------|
 | 1    | August 26, 2024 | Lecture 1      | **Introduction and Overview**                                                    | Szeliski (2nd Edition) Chapter 1                            | Deep dive into foundational concepts                    |
 | 2    | September 2, 2024 | Lecture 2      | **Image Filtering and Edge Detection**                                           | Image Filtering - Szeliski Chapter 3.1 - 3.3               | Edge Detection - Szeliski Chapter 7.2                   |
 | 3    | September 9, 2024 | Lecture 3      | **Image Resampling**                                                             | Basic Concepts - Szeliski Chapter 2.3.1                    | Advanced Techniques - Szeliski Chapter 3.4-3.5          |
