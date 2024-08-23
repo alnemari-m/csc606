@@ -6,40 +6,40 @@ This course provides an introduction to computer vision, including fundamentals 
 feature detection and matching, stereo, motion estimation and tracking, image classification, scene understanding, and deep learning with neural networks.
 
 
-   <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }
-        .project {
-            background-color: #fff2cc; /* Light Yellow */
-        }
-        .exam {
-            background-color: #d9e8fb; /* Light Blue */
-        }
-        .problem-set {
-            background-color: #e2efda; /* Light Green */
-        }
-        .header {
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }
-    </style>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    .project {
+        background-color: #fff2cc; /* Light Yellow */
+    }
+    .exam {
+        background-color: #d9e8fb; /* Light Blue */
+    }
+    .problem-set {
+        background-color: #e2efda; /* Light Green */
+    }
+    .header {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+</style>
 
 
 <h1>Grading Timeline</h1>
@@ -66,7 +66,7 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
     <td>October 7, 2024</td>
     <td>Problem Set 1 Due</td>
     <td>Covers topics from Lectures 1-5. Submit your solutions.</td>
-    <td>10%</td>
+    <td>5%</td>
   </tr>
   <tr class="exam">
     <td>Week 8</td>
@@ -80,7 +80,7 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
     <td>November 11, 2024</td>
     <td>Problem Set 2 Due</td>
     <td>Covers topics from Lectures 6-10. Submit your solutions.</td>
-    <td>10%</td>
+    <td>5%</td>
   </tr>
   <tr class="project">
     <td>Week 15</td>
@@ -90,7 +90,7 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
     <td>10%</td>
   </tr>
   <tr class="project">
-    <td>Week 199</td>
+    <td>Week 19</td>
     <td>December 30, 2024</td>
     <td>Final Project Submission</td>
     <td>Submit your final project report and presentation.</td>
@@ -101,7 +101,7 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
     <td>January 5, 2025</td>
     <td>Final Exam</td>
     <td>Comprehensive exam covering the entire course.</td>
-    <td>20%</td>
+    <td>30%</td>
   </tr>
 </table>
 
@@ -143,6 +143,9 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
   tr.holiday {
     background-color: #ffffff;
   }
+
+
+
 </style>
 
 # Course Schedule
