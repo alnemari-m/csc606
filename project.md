@@ -35,7 +35,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #98FB98; color: #000000;">
+  <tr style="background-color: #e5d1ff; color: #000000;">
     <td><strong>Object Detection and Recognition using Deep Learning</strong></td>
     <td>Develop an object detection system using CNN frameworks like YOLO or Faster R-CNN.</td>
     <td>
@@ -77,7 +77,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #E6E6FA; color: #000000;">
+  <tr style="background-color: #c3c3ff; color: #000000;">
     <td><strong>Super-Resolution Imaging with GANs</strong></td>
     <td>Create a super-resolution model using a Generative Adversarial Network (GAN).</td>
     <td>
@@ -98,7 +98,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #98FB98; color: #000000;">
+  <tr style="background-color: #c3ffeb; color: #000000;">
     <td><strong>Structure-from-Motion (SfM) and SLAM</strong></td>
     <td>Develop a system for 3D map reconstruction and real-time localization using SfM and SLAM.</td>
     <td>
@@ -140,7 +140,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #E6E6FA; color: #000000;">
+  <tr style="background-color: #e6f5bd; color: #000000;">
     <td><strong>Pose Estimation for Human Motion Analysis</strong></td>
     <td>Develop a system to estimate human poses from images or videos for action recognition or tracking.</td>
     <td>
@@ -161,7 +161,7 @@ permalink: /project/
       </ul>
     </td>
   </tr>
-  <tr style="background-color: #98FB98; color: #000000;">
+  <tr style="background-color: #d2deca; color: #000000;">
     <td><strong>Optical Flow Estimation for Motion Tracking</strong></td>
     <td>Create a system that estimates optical flow between video frames to track motion.</td>
     <td>
