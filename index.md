@@ -1,4 +1,8 @@
 ---
 layout: home
 ---
-Register to our [Google groups page](https://groups.google.com/forum/#!forum/gp-id) to get course notifications via email.
+# Course Grade 
+## 1. Homework 1: 100
+## 2. Homework 2: 100
+## 3. Homework 3: 100
+## 4. Homework 4: 100
