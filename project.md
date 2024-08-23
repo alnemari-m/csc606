@@ -3,6 +3,10 @@ layout: page
 title: Project
 permalink: /project/
 ---
+
+# Git and Github Assignment 
+[Learn Git & Github](https://classroom.github.com/a/UNcSUhG7)
+
 # Projects for Computer Vision Course
 <table style="border-collapse: collapse; width: 100%;">
   <tr style="background-color: #E6E6FA; color: #000000;">

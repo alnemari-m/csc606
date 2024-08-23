@@ -10,6 +10,8 @@ feature detection and matching, stereo, motion estimation and tracking, image cl
 [Join the Piazza Group](https://piazza.com/university_of_tabuk/fall2024/computervision)
 Access code: TBH
 
+[Join the github Classroom](https://classroom.github.com/classrooms/179257229-computer_vision_cs606)
+
 <style>
     body {
         font-family: Arial, sans-serif;
