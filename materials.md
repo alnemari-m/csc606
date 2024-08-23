@@ -8,7 +8,7 @@ permalink: /materials/
 <table style="border-collapse: collapse; width: 100%;">
   <tr style="background-color: #E6E6FA; color: #000000;">
     <td style="width: 25%;">
-      <img src="/_images/computer_vision.png" alt="Computer Vision" style="width: 175px; align: right;">
+      <img src="https://m.media-amazon.com/images/I/61cyQ3OIp6L._AC_UF1000,1000_QL80_.jpg" alt="Computer Vision" style="width: 175px; align: right;">
     </td>
     <td style="padding: 10px;">
       <h3>Required Book</h3>
@@ -18,7 +18,7 @@ permalink: /materials/
   </tr>
   <tr style="background-color: #98FB98; color: #000000;">
     <td style="width: 25%;">
-      <img src="/_images/deep_learning.jpg" alt="Deep Learning" style="width: 175px; align: right;">
+      <img src="https://m.media-amazon.com/images/I/A10G+oKN3LL._AC_UF894,1000_QL80_.jpg" alt="Deep Learning" style="width: 175px; align: right;">
     </td>
     <td style="padding: 10px;">
       <h3>Deep Learning</h3>
