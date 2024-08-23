@@ -5,6 +5,10 @@ layout: home
 This course provides an introduction to computer vision, including fundamentals of image formation, camera imaging geometry, 
 feature detection and matching, stereo, motion estimation and tracking, image classification, scene understanding, and deep learning with neural networks.
 
+# Piazza Group 
+
+[Join the Piazza Group]https://piazza.com/university_of_tabuk/fall2024/computervision)
+Access code: 
 
 <style>
     body {
