@@ -1,4 +1,4 @@
-[lecture3.md](lecture3.md)---
+---
 type: lecture
 date: 2024-09-25T8:00:00+4:30
 title: Lecture 5 - RANSAC & Camera Calibration.

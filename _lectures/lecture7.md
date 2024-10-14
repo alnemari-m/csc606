@@ -1,4 +1,4 @@
-[lecture3.md](lecture3.md)---
+---
 type: lecture
 date: 2024-09-27T8:00:00+4:30
 title: Lecture 7 - Stereo & Light and perception.

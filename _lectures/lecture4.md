@@ -1,4 +1,4 @@
-[lecture3.md](lecture3.md)---
+---
 type: lecture
 date: 2024-09-24T8:00:00+4:30
 title: Lecture 4 - Image Transformations & Image Alignments.

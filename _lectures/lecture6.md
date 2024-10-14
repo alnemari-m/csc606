@@ -1,4 +1,4 @@
-[lecture4.md](lecture4.md)[lecture3.md](lecture3.md)---
+---
 type: lecture
 date: 2024-09-26T8:00:00+4:30
 title: Lecture 6 - Panoramas & Single View Modling.
