@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2024-09-02T8:00:00+4:30
+date: 2024-09-10T8:00:00+4:30
 title: Lecture 2 - Image Formation and Camera Models
 tldr: "Understanding how images are formed and the basic principles of camera models."
 thumbnail: "https://miro.medium.com/v2/resize:fit:1400/1*Mx_BNPe6Nlf8PFJx1n3PhQ.png"
