@@ -1,6 +1,6 @@
 [lecture3.md](lecture3.md)---
 type: lecture
-date: 2024-09-23T8:00:00+4:30
+date: 2024-09-27T8:00:00+4:30
 title: Lecture 7 - Stereo & Light and perception.
 tldr: "Understanding how to estimate depth from stereo images and how light and perception are related."
 thumbnail: "https://miro.medium.com/v2/resize:fit:1400/1*Mx_BNPe6Nlf8PFJx1n3PhQ.png"

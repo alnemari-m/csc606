@@ -1,6 +1,6 @@
 [lecture3.md](lecture3.md)---
 type: lecture
-date: 2024-09-23T8:00:00+4:30
+date: 2024-09-25T8:00:00+4:30
 title: Lecture 5 - RANSAC & Camera Calibration.
 tldr: "Understanding how to estimate the camera parameters and how to robustly estimate the parameters using RANSAC."
 thumbnail: "https://miro.medium.com/v2/resize:fit:1400/1*Mx_BNPe6Nlf8PFJx1n3PhQ.png"

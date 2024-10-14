@@ -1,6 +1,6 @@
 [lecture3.md](lecture3.md)---
 type: lecture
-date: 2024-09-23T8:00:00+4:30
+date: 2024-09-24T8:00:00+4:30
 title: Lecture 4 - Image Transformations & Image Alignments.
 tldr: "Understanding how to transform images and align them."
 thumbnail: "https://miro.medium.com/v2/resize:fit:1400/1*Mx_BNPe6Nlf8PFJx1n3PhQ.png"

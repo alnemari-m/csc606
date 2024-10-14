@@ -1,6 +1,6 @@
 [lecture4.md](lecture4.md)[lecture3.md](lecture3.md)---
 type: lecture
-date: 2024-09-23T8:00:00+4:30
+date: 2024-09-26T8:00:00+4:30
 title: Lecture 6 - Panoramas & Single View Modling.
 tldr: "Understanding how to create panoramas and model a scene from a single image."
 thumbnail: "https://miro.medium.com/v2/resize:fit:1400/1*Mx_BNPe6Nlf8PFJx1n3PhQ.png"
