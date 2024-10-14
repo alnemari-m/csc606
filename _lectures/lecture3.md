@@ -9,11 +9,11 @@ links:
       name: notes
     - url: https://colab.research.google.com/drive/18tHly89U-AOySg--LuvG7lEGA8s7A85F?usp=drive_link
       name: Jupyter Notebook
-    - url: 
-      name: slides1
     - url: https://docs.google.com/presentation/d/1ldzfTfVN0DqJRgYpfR8nl6mhA1JRnnB3/edit?usp=drive_link&ouid=115767900275282252609&rtpof=true&sd=true
-      name: slides2
+      name: slides1
     - url: https://docs.google.com/presentation/d/1NqZcx5M4bfkj0Zio2XjXLtBbiF-UrGfF/edit?usp=drive_link&rtpof=true&sd=true
+      name: slides2
+    - url: 
       name: all
 ---
 **Readings:**
