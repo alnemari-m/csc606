@@ -17,5 +17,5 @@ links:
       name: all
 ---
 **Readings:**
-1. Szeliski 7.1
-2. Szeliski 7.1
+1. Szeliski 6.1
+2. Szeliski  2.1.3-2.1.6
