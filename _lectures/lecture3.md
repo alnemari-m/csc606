@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2024-09-10T8:00:00+4:30
-title: Lecture 3 - Features Detection and Invariance
+title: Lecture 3 - Features Detection and Invariance.
 tldr: "Understanding how to detect features in images and make them invariant to transformations."
 thumbnail: "https://miro.medium.com/v2/resize:fit:1400/1*Mx_BNPe6Nlf8PFJx1n3PhQ.png"
 links: 
